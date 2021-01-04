@@ -13,12 +13,8 @@ import './styles/styles.scss';
 
 const store = configureStore(); 
 
-// store.dispatch(addUser({firstName:'John', lastName: 'Doe'}));
-// store.dispatch(addUser({firstName:'David', lastName: 'Doe', userName: 'davidjoe51'}));
 
-const state = store.getState();
-// const visibleUsers = getVisibleUsers(state.users);
-// console.log(visibleUsers);
+
 
  
 const jsx = (
